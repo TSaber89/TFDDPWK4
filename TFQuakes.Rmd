@@ -1,0 +1,51 @@
+---
+title: "Earthquakes in Fiji"
+author: "Terry Fehlhaber"
+date: "`r Sys.Date()`"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Earthquakes in Fiji
+
+
+   The Quakes dataset was used to complete the requirements for the final project 
+   of the Developing Data Products class.
+
+   The Quakes dataset consisted of a dataframe of 1000 observation over 5 
+   variables.  
+
+   Only the magnitude and the number of observations were used for the application
+
+Project Description
+
+- First, a Shiny application was created and deployed on R Studio servers.  
+        The code for the server.R and UI.R was added to Github. 
+
+- Second, a presentation was created to pitch the product.  
+
+The next two slides demonstrate the use of a 
+
+- widget
+- operations on the UI in server.R
+- reactive output will be displayed as a result of the server calculations
+
+
+## Shiny App Server Code
+![Server](C:\Users\tf1412\Documents\Documents\TFShinyAppDPPwk4\ServerCap.png)
+
+## Shiny App UI Code
+![UI](C:\Users\tf1412\Documents\Documents\TFShinyAppDPPwk4\UICap.png)
+
+## Slide with R Output
+
+Click the link below:
+
+[Fiji Quakes App](https://tsaber89.shinyapps.io/TFShinyAppDPPwk4/)
+
+
+
